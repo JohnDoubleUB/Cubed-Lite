@@ -58,8 +58,8 @@
     <file>Assets/Plugins/Android/com.google.guava.listenablefuture-1.0.jar</file>
   </files>
   <settings>
-    <setting name="androidAbis" value="arm64-v8a,armeabi-v7a" />
-    <setting name="bundleId" value="com.DefaultCompany.CubedLite" />
+    <setting name="androidAbis" value="arm64-v8a,armeabi-v7a,x86,x86_64" />
+    <setting name="bundleId" value="com.JohnDoubleUB.CubeularLite" />
     <setting name="explodeAars" value="True" />
     <setting name="gradleBuildEnabled" value="True" />
     <setting name="gradlePropertiesTemplateEnabled" value="False" />
