@@ -1,0 +1,13 @@
+SoundEffects:
+Because the game itself is clean, minimalist and isometric the sound effects should match that aesthetic
+
+- Cube sound effect something, maybe a bit like the sound effect we used for footsteps that one time in doors for that other dimension? whatever the sound effect is shouldn't be too loud or anything as it'll get played a lot
+- Some kind of explosion sound for when cubes get blown up by a bomb
+- A plingy sound effect for picking up keys?
+- some kind of key unlocking sound
+- Some kind of success sound for when levels are completed
+- a sound for when the player fails a level
+- button sound for menu and game buttons when pressed
+- maybe a noise for when blocks hit up against something they can't move past
+
+I don't really know what kind of thing music wise but as long as it matches the clean minimalist style of the graphics come up with whatever you like
