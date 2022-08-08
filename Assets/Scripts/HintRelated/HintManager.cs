@@ -159,7 +159,7 @@ public class HintManager : MonoBehaviour
                     if (result)
                     {
                         //Ad shown successfully!
-                        UIManager.current.SetActiveContexts(false, EUIContext.AdPermissionMenu);
+                        UIManager.current.SetActiveContexts(false, EUIContext.AdPermissionMenu, EUIContext.ExplicitHint);
                         UIManager.current.SetActiveContexts(true, EUIContext.HintMenu);
                         GenerateHint(PuzzleManager.current.CurrentActions);
                         adsShownThisLevel++;
