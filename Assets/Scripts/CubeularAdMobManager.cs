@@ -62,6 +62,7 @@ public class CubeularAdMobManager : MonoBehaviour
 #elif UNITY_ANDROID
         deviceIds.Add("75EF8D155528C04DACBBA6F36F433035");
         deviceIds.Add("7cff281238e19fd8");
+        deviceIds.Add("10277FC8797C0427BF8CEF3CE77CF43E");
 #endif
 
         // Configure TagForChildDirectedTreatment and test device IDs.
@@ -135,10 +136,11 @@ public class CubeularAdMobManager : MonoBehaviour
         PrintStatus("Requesting Banner ad.");
 
         // These ad units are configured to always serve test ads.
+        //string adUnitId = "ca-app-pub-3940256099942544/6300978111"; //Test ad id for android
 #if UNITY_EDITOR
         string adUnitId = "unused";
 #elif UNITY_ANDROID
-            string adUnitId = "ca-app-pub-3940256099942544/6300978111";
+            string adUnitId = "ca-app-pub-7650965011443409/2268390676";
 #elif UNITY_IPHONE
             string adUnitId = "ca-app-pub-3940256099942544/2934735716";
 #else
@@ -235,10 +237,12 @@ public class CubeularAdMobManager : MonoBehaviour
     public void RequestAndLoadAppOpenAd()
     {
         PrintStatus("Requesting App Open ad.");
+
+        //string adUnitId = "ca-app-pub-3940256099942544/3419835294"; //Test intersticial for android
 #if UNITY_EDITOR
         string adUnitId = "unused";
 #elif UNITY_ANDROID
-            string adUnitId = "ca-app-pub-3940256099942544/3419835294";
+            string adUnitId = "ca-app-pub-7650965011443409/1750952718";
 #elif UNITY_IPHONE
             string adUnitId = "ca-app-pub-3940256099942544/5662855259";
 #else
